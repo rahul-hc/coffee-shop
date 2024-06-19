@@ -1,0 +1,183 @@
+
+body{
+    margin: 0px;
+}
+
+.background{
+    background-color: rgba(203, 172, 61, 0.507);
+    height: 100vh;width:100%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover{
+    background-color: rgba(203, 172, 61, 0.507);
+  }
+/* .right-navbar{
+    display: flex;
+    color: white;font-size: 12px;font-family: cursive;
+    gap: 24px;
+    padding: 10px;
+    text-align: center;
+    position: fixed;top: 10px;right: 5px; */
+/* }
+
+.home:hover{
+    color:  rgba(203, 172, 61, 0.507);
+    cursor: pointer;
+}
+.about:hover{
+    color: rgba(203, 172, 61, 0.507);
+    cursor: pointer;
+}
+.menu:hover{
+    cursor: pointer;
+    color: rgba(203, 172, 61, 0.507);
+}
+.contact:hover{
+    cursor: pointer;
+    color:  rgba(203, 172, 61, 0.507);
+} */
+
+    
+
+.shop{
+    color: white;font-size: 12px;font-family: cursive;
+    padding: 10px;
+    position: fixed;top: 5px;
+}
+.button1{
+   text-align: center;
+   position: fixed;top: 100px;
+   cursor: pointer;
+}
+
+.aboutus{
+    text-align: center;
+    position: fixed;top: 150px;
+     font-weight: bold;
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.info1{
+    font-size: smaller;
+    position: fixed;top: 170px;
+}
+.rectangle{
+    background-color: rgba(203, 172, 61, 0.637);
+    height: 140px;width: 100%;
+    position:fixed;top:200px ;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.sq1{
+    height: 50px;width: 100px;
+    text-align: center;padding-top: 20px;
+    /* margin-left: 480px; */
+    font-size: 15px;
+    background-color: rgb(238, 217, 141);
+    border-radius: 5%;
+    cursor: pointer;
+}
+
+.sq1:hover{
+    background-color:  rgba(203, 172, 61, 0.367);
+    border: 1px solid black;
+}
+.sq1cost{
+    font-size: 12px;
+}
+.sq2{
+    height: 50px;width: 100px;
+    text-align: center;padding-top: 20px;
+    /* margin-left: 600px; */
+    font-size: 15px;
+    background-color: rgb(238, 217, 141);
+    border-radius: 5%;
+    cursor: pointer;
+}
+.sq2:hover{
+    background-color:  rgba(203, 172, 61, 0.367);
+    border: 1px solid black;
+}
+.sq2cost{
+    font-size: 12px;
+}
+.sq3{
+    height: 50px;width: 100px;
+    text-align: center;padding-top: 20px;
+    /* margin-left:720px; */
+    font-size: 15px;
+    background-color: rgb(238, 217, 141);
+    border-radius: 5%;
+    cursor: pointer;
+}
+.sq3:hover{
+    background-color:  rgba(203, 172, 61, 0.367);
+    border: 1px solid black;
+}
+.sq3cost{
+    font-size: 12px;
+}
+.parent{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+.contactus{
+font-size: 20px;font-weight: bold; 
+    text-align: center;
+   position: fixed; top:365px ;
+}
+form{
+    position: fixed;top:390px ;
+    text-align: center;
+}
+input{
+    text-align: center;
+}
+textarea{
+    text-align: center;
+}
+button{
+    color: aliceblue;background-color: rgba(0, 0, 0, 0.74);
+    border-radius: 5%;
+    cursor: pointer;
+}
+.last{
+    position: fixed;bottom: 0px;text-align: center;
+    position: fixed;
+    color: white;background-color: rgba(0, 0, 0, 0.775);
+    padding: 7px; width: 100vw;
+    font-family: cursive;font-size: 10px;
+}
+/* .img1{
+    height: 150px;width: 180px;
+    position: fixed;top: 380px;right: 200px;
+}
+.img2{
+    position: fixed;top: 380px;left: 200px;
+} */
